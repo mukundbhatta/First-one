@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+.nav {
+  display: flex;
+  background-color: black;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding-left: 35px;
+  font-size: 45px;
+  color: palevioletred;
+}
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  padding: 15px;
+  font-size: larger;
+}
+.image {
+  background-image: url('profile.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+}
+.title {
+  max-height: 200px;
+  height: 100%;
+  width: 90%;
+  background-color: transparent;
+  padding-top: 150px;
+  padding-left: 15px;
+  padding-right: 120px;
+}
+.title-sent {
+  font-size: 60px;
+  font-family: Optima, sans-serif;
+}
+.learnmore {
+  background-color: transparent;
+  border: 1.5px solid white;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.Subscribe {
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: 1.5px solid white;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.profile {
+  margin-right: 213px;
+  margin-top: 108px;
+  height: 307px;
+  width: 393px;
+  background-image: url("mane.jpg");
+  background-size: cover;
+}
